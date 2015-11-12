@@ -22,6 +22,7 @@
 </div>
 <div class="container-fluid granite-divider"></div>
 {{#foreach posts}}
+{{^has tag="gallery"}}
 <div class="container-fluid granite-about-us">
     <div class="container">
         <h2 class="text-center">{{title}}</h2>
@@ -29,6 +30,7 @@
         {{content}}
     </div>
 </div>
+{{/has}}
 {{/foreach}}
 <!-- <div class="container-fluid" id="map"></div>
 <div class="container-fluid granite-gallery">
