@@ -1,0 +1,18 @@
+<div class="container-fluid granite-gallery">
+    <div class="container">
+        <h2>Gallery</h2>
+        <hr>
+        {{#foreach posts}}
+        {{#has tag="image"}}
+        <div class="row granite-image-gallery">
+            <div class="col-lg-3 col-md-4 col-sm-6 image-holder">
+                <div class="grt-gallery-image-wrapper">
+                    <img src="{{image}}" />
+                    <h6>Coffee Brown</h6>
+                </div>
+            </div>
+        </div>
+        {{/has}}
+        {{/foreach}}
+    </div>
+</div>
