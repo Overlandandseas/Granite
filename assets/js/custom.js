@@ -15,7 +15,7 @@ $(document).ready(function () {
     });
 });
 $(window).load(function () {
-    // initializeMap();
+    // initializeMaps
 })
 // on window resize
 $(window).resize(function () {

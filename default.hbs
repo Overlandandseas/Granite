@@ -26,6 +26,14 @@
     {{! Grab everything }}
     {{{body}}}
 
+    {{!FOOTER}}
+    <div class="container-fluid granite-footer">
+        <hr>
+        <h4>This is our fucking footer</h4>
+        <h5>It's fucking pretty</h5>
+        <h6>Isn't it</h6>
+    </div>
+
     {{! Should no longer include jquery }}
     {{ghost_foot}}
 
@@ -33,7 +41,7 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     {{! keeping offline versions for development}}
     <script type="text/javascript" src="{{asset "js/jquery.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/boostrap.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/bootstrap.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/custom.js"}}"></script>
 </body>
 </html>

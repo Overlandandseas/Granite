@@ -146,3 +146,11 @@ p {
 .granite-space-filler {
     height: 100%;
 }
+
+.granite-footer {
+    background-color: #f5f0ea;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+
+}
