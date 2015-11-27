@@ -15,7 +15,7 @@ $(document).ready(function () {
     });
 });
 $(window).load(function () {
-    // initializeMaps
+    initializeMaps
 })
 // on window resize
 $(window).resize(function () {
@@ -35,7 +35,6 @@ jQuery.fn.center = function(parent) {
 };
 
 $('.image-holder').bind('mouseenter mouseleave', function () {
-    console.log('yes senpai');
     $(this).find('img').toggleClass('granite-image-focused');
     $(this).find('h6').toggleClass('granite-h6-focused');
 });
