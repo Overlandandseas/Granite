@@ -39,19 +39,6 @@
 <div class="container-fluid" id="map"></div>
 
 {{! GALLERY }}
-{{#foreach posts}}
-{{^has tag="image"}}
-{{^if featured}}
-<div class="container-fluid granite-post">
-    <div class="container">
-        <h2 class="text-center">{{title}}</h2>
-        <hr>
-        {{content}}
-    </div>
-</div>
-{{/if}}
-{{/has}}
-{{/foreach}}
 
 <div class="container-fluid granite-gallery">
     <div class="container">
@@ -72,6 +59,19 @@
     </div>
 </div>
 
+{{#foreach posts}}
+{{^has tag="image"}}
+{{^if featured}}
+<div class="container-fluid granite-post">
+    <div class="container">
+        <h2 class="text-center">{{title}}</h2>
+        <hr>
+        {{content}}
+    </div>
+</div>
+{{/if}}
+{{/has}}
+{{/foreach}}
 
 
 <!--
