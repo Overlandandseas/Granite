@@ -19,10 +19,11 @@
             </div>
         </div>
     </div>
-</div>
+</div> <!-- End of cover section -->
+
+{{! FEATURED POST }}
 <div class="container-fluid granite-divider"></div>
 {{#foreach posts}}
-{{^has tag="image"}}
 {{#if featured}}
 <div class="container-fluid granite-post">
     <div class="container">
@@ -32,9 +33,12 @@
     </div>
 </div>
 {{/if}}
-{{/has}}
 {{/foreach}}
 
+{{! MAP CANVAS }}
+<div class="container-fluid" id="map"></div>
+
+{{! GALLERY }}
 {{#foreach posts}}
 {{^has tag="image"}}
 {{^if featured}}
